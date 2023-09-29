@@ -1,0 +1,123 @@
+Java:
+=====
+   java is a programming language
+   
+   language:
+   --------
+   communiction with humans
+     eg; telugu,hindi,tamil......
+	 
+	programming languge:
+	======================
+	communication with machines
+	   c,c++,java,.net,python.........
+	   
+	   Machine language.....0's and 1's or binary code
+	   
+	   software/application
+	   
+	   2 types applications:
+	   =======================
+	   1.standlone /desktop : eg:calcutor,notepad,notepad++,eclipse
+	   
+	   2.distrubted/network appliactions
+	        Eg:  gmail,Instagram,filpkart.....
+			      
+		2 types in java:
+          1.pop
+          2.oop
+    1.pop(procedure oriented prog languge)	
+        eg: c,cobol,b........
+    2.oop:(object oriented programming language)
+        eg: java,.net,python,c+++......
+	
+		1.performance
+		2.security
+		
+		oops pardigm:
+		=============
+		  in java 4 concepts oops:
+		  =======================
+		        1inheritance
+				2.polymorhisam--------performance
+				3.abstruction
+				4.encapuslation--------security
+				
+	    java:
+		======
+		   java is a object oriented programming language
+		
+		history of java:
+		================
+		  java-----1995------>sun micro system-------->oracle corporation
+		  Father of java ----->Games Gosling..
+		  jdk 1.0----(java development kit)
+		  current version ..........>jdk 21
+		  stadandrd version...8,11,17-------------> It is used for long term support
+		  
+		  in java we have 3 types of Editions:
+		  ====================================
+		    1.jse(java standard edition).......core java appl
+			2.jee(java enterprise edition)........Adavance application(spring,jsp)
+			3.jme(java mobile/micro applications)...Andriod
+			
+			
+		why java??
+		-----------
+		      1.platform independent...........>WORA(Write once run anywhere)
+			  2.Garbage collection
+			  
+			  1.platform indenpendent:
+			  
+			  user1        user2        user3
+			  
+              windows 		 mac	    linux
+			  
+			  
+			  2.Garbage collection:
+			  =====================
+			      It will collect the unwanted memory space....
+				  
+				  Garbage collector..........
+				  
+				  Garbage collection
+				  
+				  Eg:
+				      300 varaibles
+					   250 
+					   
+			pre requisties of the java program:
+			==================================
+			1.  download software(jdk)
+			2.  install the software
+			3.  Eclipse,notepad,notepad++,nebeans...
+			4.  write the java program
+			5.  save the file(.java)
+			6.  compile the program
+			7.  excute the file
+			
+			
+			class classname{
+			
+			public static void main(String[] args){
+			  // logic
+			  System.out.println("Welcome to java");
+			
+			}
+			
+			
+			}
+			
+		compilation	:
+		============
+		
+			          compiler                     jvm
+		source code/java ------------------byte code----------->ouput	
+		  
+		 	  
+		  javac filename.java------->To compile
+		  
+		  java classname-----> To excution
+
+           		
+			  
