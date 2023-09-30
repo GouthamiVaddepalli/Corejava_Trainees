@@ -5,11 +5,13 @@ Java:
    language:
    --------
    communiction with humans
+   
      eg; telugu,hindi,tamil......
 	 
 	programming languge:
 	======================
 	communication with machines
+	
 	   c,c++,java,.net,python.........
 	   
 	   Machine language.....0's and 1's or binary code
@@ -21,14 +23,20 @@ Java:
 	   1.standlone /desktop : eg:calcutor,notepad,notepad++,eclipse
 	   
 	   2.distrubted/network appliactions
+	   
 	        Eg:  gmail,Instagram,filpkart.....
 			      
 		2 types in java:
+		
           1.pop
           2.oop
-    1.pop(procedure oriented prog languge)	
+		  
+    1.pop(procedure oriented prog languge)
+	
         eg: c,cobol,b........
+		
     2.oop:(object oriented programming language)
+	
         eg: java,.net,python,c+++......
 	
 		1.performance
@@ -45,26 +53,35 @@ Java:
 				
 	    java:
 		======
+		
 		   java is a object oriented programming language
 		
 		history of java:
 		================
+		
 		  java-----1995------>sun micro system-------->oracle corporation
+		  
 		  Father of java ----->Games Gosling..
+		  
 		  jdk 1.0----(java development kit)
+		  
 		  current version ..........>jdk 21
+		  
 		  stadandrd version...8,11,17-------------> It is used for long term support
 		  
 		  in java we have 3 types of Editions:
 		  ====================================
 		    1.jse(java standard edition).......core java appl
+			
 			2.jee(java enterprise edition)........Adavance application(spring,jsp)
+			
 			3.jme(java mobile/micro applications)...Andriod
 			
 			
 		why java??
 		-----------
 		      1.platform independent...........>WORA(Write once run anywhere)
+			  
 			  2.Garbage collection
 			  
 			  1.platform indenpendent:
@@ -84,23 +101,33 @@ Java:
 				  
 				  Eg:
 				      300 varaibles
+					  
 					   250 
 					   
 			pre requisties of the java program:
-			==================================
+		     ==================================
+			 
 			1.  download software(jdk)
+			
 			2.  install the software
-			3.  Eclipse,notepad,notepad++,nebeans...
+			
+			3.  Eclipse,notepad,notepad++,netbeans...
+			
 			4.  write the java program
+			
 			5.  save the file(.java)
+			
 			6.  compile the program
+			
 			7.  excute the file
 			
 			
 			class classname{
 			
 			public static void main(String[] args){
+			
 			  // logic
+			  
 			  System.out.println("Welcome to java");
 			
 			}
@@ -117,7 +144,92 @@ Java:
 		 	  
 		  javac filename.java------->To compile
 		  
-		  java classname-----> To excution
+		  java classname-----> To execution
 
            		
-			  
+	sturure of java program:
+	==========================
+	
+	class classname{
+	
+	public static void main(String[] args){
+	
+	// logic
+	
+	System.out.println("Hello......");
+	
+	
+	}
+	
+	
+	}
+	
+	class:
+	=====
+	  every java program has be written inside the class
+	  
+	main():
+	=======
+	      main is method name.....it is a start /entry point of the java program
+		  
+		  
+		  execution is start from the main method
+		  
+		  
+    fundamentals in java:
+	=======================
+	 
+	 class  :  class is a keyword it is used declare the class
+	 
+	 public : public is a keyword...access modifier...it gives permission to access things..
+	 
+	 void   :  void is nothing ....its returns nothing
+	 
+	 static :  static is a keyword....by using class name
+	 
+	 main() :  its is the start point of the java program...execution is start from the main method...
+	 
+	 String:  string is a predefined class....can be used as data type
+	 
+	 args[] :   parameters
+	 
+	 String[] args :  can be used for commandline arguments
+	 
+	 System : predefined class
+	 
+	 out : out is a obj for the system class
+	 
+	 println :  it is a method to print the statement....
+	 
+	 compiler
+	 
+	           compiler           jvm                   cpu
+	 java code---------->bytecode--------> machine code----->output
+	 
+	 
+	 jdk,jre,jvm:
+	 ==============
+	 
+	 1.JDK :
+     ===========	 
+	                 
+					 java development kit
+					 
+					 inside jdk (jre + development tools)
+	 
+	 2.JRE :
+     =======	 
+	                 java runtinme environment
+					 
+					 (jvm + libraries)
+	 
+	 3. JVM :
+	 ==========
+	 
+	        java virtual Machine
+			
+			
+	            it excutes the bytecode into native machine code after it gives instructions to the cpu
+				and displays highlevel langugae...(output)
+	 
+	 
