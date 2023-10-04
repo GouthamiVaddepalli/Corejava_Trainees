@@ -232,4 +232,183 @@ Java:
 	            it excutes the bytecode into native machine code after it gives instructions to the cpu
 				and displays highlevel langugae...(output)
 	 
-	 
+	 Day 3:
+	 ======
+	 language fundamentals:
+	 =====================
+	      keywords
+		  variables
+		  main()
+		  arrays
+		  datatypes
+		  command arguments
+		  
+		1.keywords:
+        ============
+        53 keywords
+        
+        all keywords have to be lower case only
+
+     	2.identifiers:
+=   ===================
+       	any name in java consider as a identifier..	
+		
+		class name,  variable name,method name,,,interface name
+		
+		naming conventions:
+		====================
+		class name first letter should be captial letter
+		
+		always start with cappital letter
+		
+		eg:   Helloworld(not good programming)....HelloWorld
+		
+		* all variables,methods follows camelCase
+		
+		   Eg:   nameOfStudent-------> camelCase
+		   
+		   Eg:    method name------addOfTwo
+		   
+		  * all keywords  have to lower caseonly
+		  
+		  * java is a case sensitive
+		  
+		  
+		  
+		  
+		
+		
+		
+		
+		
+		rules and restrictions:
+		
+		-----------------------
+		
+		rules:
+		======
+		   a to z ------> are allowed
+		   
+		   A to Z -----> are allowed
+		   
+		   0 to 9 ------> are allowed
+		   
+		symbols:
+		========
+		
+		$ -----> Dollar
+		
+		_ -------> underscore-----------> are allowed
+		
+		
+		restrictions :
+		==============
+		
+		1..should not start with digits
+		
+		2.  no other symbols are not allowed
+		
+		3. keywords are not allowed to use an identifier...
+		
+		
+	class HelloWorld{
+	
+	public static void main(String[] args){
+	
+	// logic
+	
+	System.out.println("Hello......");
+	
+	
+	}
+	
+	
+	}
+		   
+	4 identifiers in above program....
+
+
+     
+    eg:  
+    
+           student1-------->	it is avalid
+		   
+		   1student---------->  it is not invalid
+		   
+		   
+		   num = 10;----->
+		   
+		   Num = 20;-----> java follws the case sensitive
+		   
+		   num$ ------->  valid
+		   
+		   num# -------> it is not invalid
+		   
+		   
+		   
+		   _$_$_S ----> valid(it is not good prgromenig)
+		   
+		   public = 50;  invalid
+		   
+		   * keywords are not allowed to use an identifier......
+		   
+		   15names-------->invalid
+		   
+		   
+		   
+		   datatypes:
+		   ==========
+		   
+		   representing the type of the data which we want to stored in varaible..
+		   
+		   
+		   student name,student marks,student address...
+		   
+		        eg: int   marks = 100;
+		   
+		 2 types: 
+         =================
+         1.premitive datatypes
+		 
+		    8 premitive.......> numeric,non numeric
+			
+			byte
+			short
+			int
+			long
+			float
+			double--------numeric datatype
+			char
+			boolean------non numeric
+		 
+		 
+         2.non premitive 
+
+            String,arrays,classes	
+        
+		1 byte = 8 bits
+		
+		formula:
+        ========
+		
+		-2^n-1 to (2^n-1)-1   n-----> number of bits
+         
+        datatype                size                    ranges                    default value	
+
+		
+		byte                   1 byte                -128 to 127                       0
+		
+		short                  2 byte                -32768 to 32767                   0
+		
+		int                    4 byte                -2147483648 to 2147483647         0
+		
+		long                   8 byte                                                  0
+		
+		float                  4 byte                                                  0.0
+		
+		double                 8 byte                                                  0.0
+		
+		char                   2 byte                  0 to 65535                     space
+		
+		boolean                1 bit                                                 False/1
+		true/false (0 , 1)
