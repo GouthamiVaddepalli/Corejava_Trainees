@@ -412,3 +412,100 @@ Java:
 		
 		boolean                1 bit                                                 False/1
 		true/false (0 , 1)
+		
+		
+	variables:
+	==========
+	variable is container which can be stored the values/data
+	
+	variable is name of the memory location
+	
+	variable 2 types:
+	
+	
+	1.local variable---------- inside the method
+	
+	2.global variable-------->inside class but oustide method
+	
+	     2 types:
+		 
+		 1.static 
+		 
+		 2.instance
+	
+	class Welcome{
+	
+	int a = 10; // global variable
+	
+	pvsm(String[] args){
+	
+	int age = 25; //local variables
+	
+	
+	}
+	
+	}
+	
+	syntax:
+	=======
+	intilize the variable:
+	=======================
+	datatyepe variable name = value/data;
+	
+	Eg: char    gender = 'f';
+	
+	
+	declare :
+	============
+	
+	int a ;
+	
+	1.syntax:
+	
+	=========
+	  eg:   static String  name = "anjali"; ---------->static properites(varaibale/methods)
+	  
+	        instance ------->without static
+			
+			
+	2.memory allocation:
+	=======================
+	
+	   static properties------>only once at time of class loading into jvm
+	   
+	   instnce properties: ------> every obj creattion
+	   
+	   
+	3.how to access:
+	===============
+	
+	   static properties can be access by using class name....
+	   
+	   instance properties----by using th obj ref
+	   
+	   
+	   obj is a instance of class
+	   
+	   instance----------> memory
+	   
+	   instansation---------->memorycreation
+	   
+	   
+	   syntax:
+	   =======
+	   creating an obj:
+	   ==================
+	   
+	   classname obj = new classname();
+	   
+	   eg:  A   obj = new A();
+	  
+	4.when to access:
+====================
+     static properties-----common properties----------school name/clg name
+	  
+     instance properties-----unique data--->contact no---> pan card/ adhar card	  
+	     
+	
+	
+	
