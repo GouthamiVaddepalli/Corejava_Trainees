@@ -411,8 +411,11 @@ Java:
 		char                   2 byte                  0 to 65535                     space
 		
 		boolean                1 bit                                                 False/1
+		
 		true/false (0 , 1)
 		
+	day 4 :
+==========	
 		
 	variables:
 	==========
@@ -507,5 +510,51 @@ Java:
      instance properties-----unique data--->contact no---> pan card/ adhar card	  
 	     
 	
+	day 5:
+	======
 	
+	Methods:   method is a block code which is defined to perform special task...
+	
+	syntax:
+	
+	   accessmodifier  return type     methodname  (if any any parameters)// method declaration/header
+	   {
+	   // logic
+	      // method body
+	   
+	   }
+	   
+	   eg: public static void main(String[] args){
+	   
+	   
+	       
+		   
+		   }
+		   
+		   public is a access modifier
+		   
+		   static is a optional
+		   
+		   void-----it returns nothing
+		   main-----name of the method
+		   
+		   method offer us code resusability
+		   
+		   
+		   method name following cameCase-----displayMsg()
+		   
+		   
+		   we have 2 types methods:
+		   
+		     1.pre ddefined method --------eg: main(),length(),println()
+			 
+			 2.user defined method-------> these methods written by programmer as we are requrinent
+			 
+			 
+			      2 types:
+				  
+				  1.static method----->by uing classname
+				  2.instance method_----->by using obj ref
+		   
+		   
 	
