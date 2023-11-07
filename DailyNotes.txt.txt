@@ -1,0 +1,179 @@
+Java:
+========
+     language:
+	 =========
+	 eg: telugu, hindi,tamil...
+	 
+	programming language:
+	=====================
+	   c,c++,java,.net,python.....
+	   
+	   in java 2 types:
+	   
+	       1.satndloone application/desktop.....calucutor,notepad,notepadd++,eclipse,microsoft excel,,,
+		   2.distrubuted/network .....gmail,instagram
+		   
+		2 types :
+		========
+		1.pop 
+		2.oop
+		
+	1.pop(procedure oriented programming language)
+	    eg.c,cobol,b.........
+		
+	2.oop(object oriented programming language)
+	    c++,java,python,.net.....
+		
+		1.performance
+		2.security
+		
+	oop pardigm:
+	=============
+	  4 concepts:
+	    1.inheritance
+		2.polymorphisam------performance
+		3.encapsulation
+		4.abstruction--------security
+		
+    Java:
+	=====
+	    java is a object oriented prgm lang...
+		
+	history:
+	=======
+	    java ----------1995-----sun micro sytem....oracle corporation...
+		version...jdk 1.0(java development kit)
+		
+		current version : java 21
+		
+		standarad version:  8,11,17 
+		these alla are the long term support
+		father of java is Games Goslings....
+		
+		in java 3 types Editions:
+		   1. jse(java standard edition).......corejava application
+		   2.  jee(java enterprise edition).......advanced application(jsp,spring)
+		   3. jme(java mobile edition).....andriod
+		   
+	why java???
+	===========
+	    1.platform independent
+		2.Garbage collection
+		
+		1.platform Independent ...........wora(write once run anywhere)
+		     user1         user2      anjali
+			 windows      mac           linux
+			 
+			java platform independent
+			
+		2.Garbage collection:
+		====================
+		    it will clloect unwanted memory space..
+		
+		    garbage collector......
+			
+			
+	    prereqisties of java program:
+		============================
+		1.software....jdk
+		2.install the jdk...
+		3.we need some editors like....(notepad,notepad++,eclipse,netnbeans..)
+		4.write the java program
+		5.save the file(.java extension)
+		6.compile the program
+		7.excute the program 
+		
+		class classname{
+		
+		public static void main(string[] args){
+		
+		//logic
+		System.out.println("Welcome");
+		
+		}
+		
+		}
+		             compiler
+		source code----------------------byte code
+		
+		     compilation
+			 
+			 
+		javac filename.java------compile the program
+		java classname -----excution
+		
+		day2:
+		=====
+		    class classname{
+			public static void main(String[] args){
+			 // logic
+			 System.out.println("Hello");
+			
+			}
+			
+			}
+			
+			class:  evrery java program has to be written inside class
+
+			main():  main is a start point/ entry point of the program....
+			         execution is start from the main method....
+					 
+			for every java program complusary to have class and main method
+			without wrriting main method   .... does not it works.....
+			
+		class:  class a keyword..it is useed to delcare the classname
+        
+        main():  main is a method name...start/enetry point of the prgm
+                
+                 execution is strt from the main maethod
+
+        public: public is a kwyword...it access modifier...	it gives permission to the access
+
+                we can use anyone....it is visible to alla
+        
+        void:  void is nothing but it returns nothing....
+
+        static:   static is a keyword....we can call the static properties by using without object
+
+        String:   string is a class...java.lang.package....	String is also can be used as data type also...
+		
+		args :    args is a parameter..
+		
+		
+		String[] args:  it can be stored commandline arguments...we can passing paramaetrs to args...
+		
+		System :   System is a predefine class...
+		
+		out :    out is a obj ...it is  a obj for system class
+		
+		println : prinln is a method...
+		
+		               compiler                        jvm                        cpu
+        source code------------------------> byte code--------------> machine code---------> output
+		
+		
+	JDK,JRE,JVM:
+	  
+	1.  jdk : java development kit
+	
+	2.  jre : java runtime environment
+	
+	3.  jvm :  java virtual machine
+	
+	jdk :     tools + jre 
+	
+	jre :     jvm + libraires
+	
+	          we cannot run the program
+			  
+	jvm :  it executes the byte code into native code..(it gives instructions to the cpu and prints the output)
+	        
+			  
+			  
+
+	
+        		
+			
+		
+		
+	
