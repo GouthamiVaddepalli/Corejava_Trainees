@@ -762,3 +762,96 @@ postfix-----a++ , a--
 ========================
 cpmpare the two values...
 a > b  or a==b a!= b....
+
+day 10:
+========
+Flow Controls:
+==============
+
+java provides statements which control flow of the code
+
+in java we have 3 types of statements:
+======================================
+1.selections stmts/decision making stmts/decision
+2.Iterative stmts/ loops stmts
+3.Jump stmts/ Transfer stmts
+
+1.Decision making statement:
+==========================
+2 types:
+========
+1.if statement
+2.switch statement
+1.if statement:
+==============
+4 types:
+
+1.simple if
+2.if else
+3.if else if ladder
+4.nested if
+
+1.simple if:
+==============
+syntax:
+========
+
+if(condition){// when condition is true
+
+//logic
+
+}
+
+2.if else:
+==========
+extension of if statement....we are using multipule else block
+
+syntax:
+=======
+
+if(condition){ when condition true
+// logic
+
+}
+else{ when condition false
+
+//logic
+}
+
+3.if else if ladder:
+====================
+syntax:
+
+if(condition 1){ when condition1 is true
+// logic
+}
+else if(condition2){
+// logic
+
+
+}
+else{
+
+// logic
+}
+
+
+4.nested if:
+===========
+if statement if or else if statements
+
+if(condition){
+
+if(condition){
+
+}
+else if(){
+
+}
+else{
+
+}
+
+}
+
+
