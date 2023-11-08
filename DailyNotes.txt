@@ -203,7 +203,7 @@ Java:
 	 
 	 compiler
 	 
-	           compiler           jvm                   cpu
+	           compiler    .classfile       jvm                   cpu
 	 java code---------->bytecode--------> machine code----->output
 	 
 	 
@@ -264,6 +264,23 @@ Java:
 		eg:   Helloworld(not good programming)....HelloWorld
 		
 		* all variables,methods follows camelCase
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		   Eg:   nameOfStudent-------> camelCase
 		   
@@ -365,6 +382,7 @@ Java:
 		   student name,student marks,student address...
 		   
 		        eg: int   marks = 100;
+				String name = "Anjali";
 		   
 		 2 types: 
          =================
@@ -462,6 +480,7 @@ Java:
 	============
 	
 	int a ;
+	byte b;
 	
 	1.syntax:
 	
@@ -557,4 +576,189 @@ Java:
 				  2.instance method_----->by using obj ref
 		   
 		   
+	Day 6 :
+	======
+	TypeCasting:
+	============
+	the process of converting the values of one datatype to another data type
 	
+	we have 2 typecasting:
+	
+	1.widenning casting(automatically)
+	   
+	   converting a smallar datatype to larger datatype
+	   
+	   byte--short---char---int---float---double
+	
+	2.narrowing casting(manually):
+	
+	     coverting a larger data type to smaller data type.....
+		 
+    lossy conversion:
+	=================
+	if we are trying to convergt larger datatype to smaller datatype ,the data which doesnot fit into the smallwr datatype...thwe data
+	the data will be lost....
+	
+	package:
+	========
+	
+	collectin of java class librairies...
+	
+	eg: slaray package(bonus,hra,incentives,basic)
+	
+	why to maintain package:
+	========================
+	
+	we have an easy to access the files.....
+	
+	
+	we have 2 types of packages:
+	
+	1.predefined package
+	
+	2.user defined package...
+	
+	**java.lang.object is the default package for all the java programs
+	
+	**object is a super class for all the classes
+	
+	we are having 11 methods-----java.lang.package
+	
+	package is used to create the pacakge
+	
+	import keyword is used access the other packages .
+	
+	syntax:
+	
+	import packagename.*;// imports the all classes and intefaces of other packages
+	
+	eg: import java.util.Scanner;
+	the standard for defing the package is domain.company.package;
+	eg: com.traines.corejava;
+	
+	to command the package:
+	
+	======================
+	   javac -d . classname.java// d means directry....(.) current directory
+	   
+	 to execute the java program:
+	 =============================
+	 
+	 java packagename.classname
+	   
+	 Day 7:
+     ======
+     commandline argumnets:
+============================
+  eg: Gmail
+  
+  in java we are giving inputs in 3 options
+  
+  
+  to give inputs dynamically, 
+  1.commandline arguments
+  2.**scanner class
+  3.Buffer Reader(file concept)
+  
+  
+  1.commandline arguments:
+  ========================
+  
+  public static void main(String[] args){
+  
+  
+  }
+  public static void display(String s){
+  S.o.p("String s:" + s);
+  
+  }
+  
+  classname.display("Anjali");
+  
+  
+  int a = 1;
+  int a[]= {1,2,3,4,5,6};
+  String s[]= {"Anjali","1","4.5","true"};
+  
+  arrays----->index starts from the -------->0
+  
+  n -----> max num array size ___________>n-1
+  4,----3
+  
+  why string??/
+  
+  String S = "Anjali";
+  int i = "25";
+  float f = "2.5";
+ 
+  args[0] = "Anjali";
+  args[1] = "1";
+  
+  wrapper classes:
+  =====================
+  converts the string data type to another data type
+  in java 8 wrapper classes for 8 datatypes
+  datatypes       wrapper classes
+  
+  byte               Byte
+  short              Short
+  int                Integer
+  long               Long
+  float              Float
+  double             Double
+  char               Character
+  boolean            Boolean
+  
+  parseInt(),parseFloat(),parseBoolean()...........
+  int a = Integer.parseInt(args[0]);
+  int b = Integer.parseInt(args[1])
+	
+Day 8
+=====
+Scanner class:
+==============
+another way to taking the input from the users
+scanner is predefined class..which is available from the java.util.package;
+import java.util.Scanner;(ctrl+shift+o) 
+we have to create the scanner object
+Scanner scan = new Scanner(System.in);
+
+System is a predefined class------> java.lang.package
+in means static property
+
+next(),nextInt(),nextFloat(),nextBoolean(),.......>
+
+
+Day 9:
+=====
+Operators
+==========
+operatoe is a symbol..that is used to perform the opeartions
+eg: addition,subtraction,mutliplication,division
++,-,*,/,%	
+	
+	unary operators
+	arthametic operators
+	realtional operators
+	assignment 
+	bitwise
+	-----
+1.arthametic operations:
+========================
++,-,*,/,%(modulus)
+2.assignment operator:
+======================
+=,+=,-=
+https://www.javatpoint.com/operators-in-java
+
+3.unary operator:
+================
+prefix------>> beffore the varaible we can use
+postfix------->>>> after the variable we can use...
+prefix---- ++a,--a
+postfix-----a++ , a--
+
+4.realational operators:
+========================
+cpmpare the two values...
+a > b  or a==b a!= b....
