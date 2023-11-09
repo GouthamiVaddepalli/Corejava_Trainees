@@ -854,4 +854,92 @@ else{
 
 }
 
+Day 11:
+======
+2.Switch statement:
+==================
+instead of if else if blocks
+we have multipule bolck of the code called cases
+
+enchances readbility of the code...
+
+syntax:
+======
+swtich(expression){
+case 1: 
+    // code
+	break;
+case 2:
+   // code
+   break:
+default:
+//code
+
+}
+
+2.Iterative statements/ loop statements:
+========================================
+we have 3 types of loop/iterative 
+
+1.for loop
+2.while loop
+3.do-while loop
+
+1.for loop:
+===========
+it used to iterate a part of code several time
+if we know no of iterations in advance we will go with for loop
+
+3 things:
+===========
+1.intilizing the variable
+2.condition
+3.increment / decrement
+
+2.while loop:
+================
+
+if we dont know howmany iterations in advance, we go for while loop
+loop is excutes until the condition is true.....
+
+
+syntax:
+=======
+
+while(condition){
+// code
+increment / decrement
+
+}
+3.Do while loop:
+=================
+if we dont know the how many iterations in advance, but code get executed atleast once
+
+syntax:
+======
+
+do{
+// code
+}while(condition);
+
+3.jump statements/transfer statements:
+
+======================================
+
+1.break
+2.continue
+
+1.break:
+========
+
+whenever we encounter a break stmt, the body of lopp gets terminated
+
+control of the programtransfers to the next statement follwimg loop...
+
+2.continue:
+===========
+it used to skip the next iteration imediately
+
+
+
 
