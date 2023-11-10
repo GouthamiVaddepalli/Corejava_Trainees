@@ -941,5 +941,84 @@ control of the programtransfers to the next statement follwimg loop...
 it used to skip the next iteration imediately
 
 
+Day 12:
+=======
+oops we can created objects it contains both data members(varaibles) and member function(methods)
+oops:
+=====
+oops paradigm --->4
+1.inheritance
+2.polymorphisam-------performnace
+3.encapusualtion
+4.abstruction---------security
 
+key ascpects : class and object
 
+class:
+=====
+
+1.class is a blue print for objects
+
+2 it is logical entity
+3.collection of data members and member function
+
+4.objects are created for class properties(varaibles,methods)
+
+object:
+=======
+
+1.object is instance of class // it allocating the memory
+2.objects are created for memory allocation to class properties
+3.an object is an entity which has both state and behaviour
+
+example:
+========
+
+class student{-----student100
+
+name
+rollno
+age
+contact
+}
+student1-------Anjali// obj1
+                  15
+				  25
+				  89122
+student2---------Gouthami //obj2
+                  16
+				  24
+				  894233
+				  
+				  
+	inheritance:
+	============
+	accuring the properties from one class to another class.....
+	
+	properties can be varaibles,methods,constructors,interface...
+	
+	code reusability*********
+	extends,implements keywords in inheritance*******
+	
+	class A{
+	
+	//50 methods+11 methods    / / varaibles,constructrs
+	
+	}
+	
+	public class B extends A{
+	//100 methods // 150 methods + 11 methods
+	   50
+	}
+	
+	5 types of inheritance:
+	===========================
+	1.single inheritacnce-----one parent and one child
+	
+	2.multilevel inheritance
+	3.hybride level inheritance
+	4.multipule inheritance
+	5.hirearical inheritance
+	
+	** multipule inheriance is not supported in java @classlevel
+	
