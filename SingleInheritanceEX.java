@@ -1,6 +1,6 @@
 package com.corejava.oops;
 
-class Parent{
+class Parent{ // single inheritance
 	int marks = 100;
     public void display() {
     	
