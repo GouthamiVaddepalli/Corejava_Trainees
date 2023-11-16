@@ -1015,10 +1015,66 @@ student2---------Gouthami //obj2
 	===========================
 	1.single inheritacnce-----one parent and one child
 	
-	2.multilevel inheritance
+	2.multilevel inheritance -----chain inheritance--superparent---parent---child
 	3.hybride level inheritance
-	4.multipule inheritance
-	5.hirearical inheritance
+	4.multipule inheritance------>
+	5.hirearical inheritance-----one parent,number of childs
 	
 	** multipule inheriance is not supported in java @classlevel
+	
+Day 13:
+=======
+multilevel inheritance:
+=======================
+DAY-14:
+======
+Multipule Inheritance:
+=====================
+	**multipule inheritance is not suported at @class level
+	** multipule inheritance is suppoertedd at @interface level
+	abstract methods and concreete methods:
+	======================================
+	concrete methods:
+	=================
+	return ttype methodname(){ // method signature
+	
+	//logic(method body)
+	}
+	a method with body(logic) or a method with implementation
+	
+	
+	abstract methods:
+	================
+	a method is without implementation 
+	
+	public abstract void m1();
+	
+	**abstract keyword
+	why????
+	
+	Security
+	
+	Abstruction:
+	==============
+	
+	hiding the unwanted things from the end user.....
+	
+	abstract class and Interface:
+	=============================
+	concrete class:  coolection of concrete methods
+	
+	abstract class: collection of both concrete method and abstract methods
+	
+	**interface class: collection oof abstarct methods..
+	
+	we cannot create objects for abstract class and interface....
+	
+	2 ways:
+	=======
+	abstract class: (0-100%)
+	
+	interface:   100%
+	
+	
+	
 	
