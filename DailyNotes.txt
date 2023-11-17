@@ -1131,6 +1131,70 @@ Multipule Inheritance:
 	
 	2.Method Overridding.....
 	
+	Day-16
+	========
+	
+	1. method overloading:
+	========================
+	
+	method name is same but signature is different
+	3 ways:
+	1.num of parameters
+	2.order of parameters
+	3.type of parameters
+	
+   print----overloaded to accept all types of data....
+   printString
+   printInt
+   printFLOat
+   
+   + addition ,concatenation....
+   
+   firstname + lastname=====GouthamiVaddepalli
+   
+   1+2 = 12
+   
+   type promotion in method overloading:
+   =====================================
+   smaller type to larger type conversions....
+   
+   methodoveridding:
+   ================
+   Method name is same ,but implementation is different...
+   parent class method will be overridden by child class
+   
+   rules:
+   ======
+   method name is same and signature has to same..
+   parent child relation.....
+   
+   
+   parent-child
+   
+   
+   class Parent{
+     int Property(){
+	 return 100000000000;
+	 }
+      publi void Wedding(){
+	   s.o.p("SAM");
+	  
+	  }
+	  
+	  class Child extens Parent{
+	  @override
+	  public void Wedding(){
+	  Syso("Thamanna");
+	  }
+	  Child overr = new Child();
+	  overr.Wedding();
+	  
+	  }
+   
+   }
+   
+   
+
 	
 	
 	
