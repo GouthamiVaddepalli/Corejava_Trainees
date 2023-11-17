@@ -1049,6 +1049,9 @@ Multipule Inheritance:
 	
 	public abstract void m1();
 	
+	
+	
+	
 	**abstract keyword
 	why????
 	
@@ -1074,6 +1077,64 @@ Multipule Inheritance:
 	abstract class: (0-100%)
 	
 	interface:   100%
+	
+	DAY-15:
+	========   
+	class A {                                   
+    public void m1(int a, int b){
+	
+	Syso(a+b);
+	}
+	
+	}
+	
+	class B {                                   
+    public void m1(int a, int b){
+	
+	Syso(a*b);
+	}
+	
+	}
+	public class Multipule extends A,B {
+	 psvm(Sgring[] args){
+	 Multipule mi = new Multipule();
+	 mi.m1();
+	 
+	 }
+	
+	}
+	
+	polymorphisam:
+	=============
+	poly----->> many
+	morphs---->>forms
+	having many forms....
+	
+	
+	single task in different ways-----in java..
+	
+	eg: humans...
+	
+	print method......code readibilty....
+	
+	printString
+	printFloat
+	printInt
+	
+	2 types:
+	========
+	1.compile time polymorphisam
+	2.Run time polymorhisam
+	
+	2 ways...
+	1.Method overloading
+	
+	2.Method Overridding.....
+	
+	
+	
+	
+	
 	
 	
 	
