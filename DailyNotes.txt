@@ -1193,6 +1193,75 @@ Multipule Inheritance:
    
    }
    
+   constructor:
+   
+   ==========
+   ** this is special method...
+   used to intilize the object..
+   
+   int a;// declaration
+   
+   int a = 10;// intliazation
+   
+   classname obj = new classname();
+   
+   classname obj = new constructor();
+   
+   ** constructor get called evertime whenver an object is created....
+   
+   rules:
+   =====
+   1.classname and constructor name both need to be same..
+   
+   2.no return type...
+   
+   2..responsiblities:
+   ===================
+   
+   1.to intilizing the object
+   2.to provide default values to the instance properties...
+   
+   
+   2 types:
+   
+   1.Default constructor------without parameters
+   2.Paramereized constructor...with parametrs
+   
+   
+   class Test{
+   
+   Test(){
+   
+   
+   }
+   
+   
+   }
+   
+   class A{
+   int b; // instance
+   pvsm(){
+   A obj = new A();
+   S.o.p(obj.b) // 0
+   }
+   
+   }
+   
+   
+   note:
+   ====
+   ** compiler automatically creates a default  constructor if there is note....
+   
+   Parameterized Constructor:
+   =========================
+   class Test{
+   
+   Test(Parameters){
+   
+   }
+   
+   
+   }
    
 
 	
