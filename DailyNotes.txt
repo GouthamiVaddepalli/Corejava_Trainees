@@ -1192,7 +1192,8 @@ Multipule Inheritance:
 	  }
    
    }
-   
+  Day-17:
+=========  
    constructor:
    
    ==========
@@ -1250,7 +1251,7 @@ Multipule Inheritance:
    
    note:
    ====
-   ** compiler automatically creates a default  constructor if there is note....
+   ** compiler automatically creates a default  constructor if there is none....
    
    Parameterized Constructor:
    =========================
@@ -1263,9 +1264,23 @@ Multipule Inheritance:
    
    }
    
-
-	
-	
+   Day-18
+   =======
+   
+   Parameterized Constructor:
+   
+   =========================
+   used to cretate the values and no of objectes...
+   class Test{
+   
+   Test(Parameters){
+   
+   }
+   ** we can take only one default construcor
+   ** we can take multiple paramerezied constructor...
+   
+   
+   }	
 	
 	
 	
