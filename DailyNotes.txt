@@ -1282,8 +1282,38 @@ Multipule Inheritance:
    
    }	
 	
+	Day -19:
+	=======
+	final,this,super keywords:--
 	
+	final :
+	======
+	3 palces :
 	
+	1. before a variable
+	2. before method
+	3. before class
 	
+	1.before a variable:
+	====================
+	once declared with final ,values within the varible cannot be chaned
+	 i + 6 constant
 	
+	2.before a method:
+	==================
 	
+	cannot change the method implementaton(overridding is not possible)
+	
+	3.before class:
+	===============
+	we cannot extend the propertoes(final class)
+	inheritance is not possilbe 
+	
+	this,super keywords:
+	====================
+	** this keyword is used to refer to the current class properties
+	** super keyword is used to refer the parent class properties
+	
+	* propertiess can be varible,method,object,constructor.....
+	
+      constructor call must be in first stattemnet in constructor
