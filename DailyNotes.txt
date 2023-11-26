@@ -1317,3 +1317,19 @@ Multipule Inheritance:
 	* propertiess can be varible,method,object,constructor.....
 	
       constructor call must be in first stattemnet in constructor
+	  
+	 Day-20:
+	 ======
+	 accesss modifiers:
+	 ==================
+	 
+	 4 modifiers:
+	 ============
+	 
+	 1. public 
+	 
+	 2. protected 
+	 
+	 3. private 
+	 
+	 4. default
