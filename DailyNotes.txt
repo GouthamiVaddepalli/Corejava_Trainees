@@ -1333,3 +1333,15 @@ Multipule Inheritance:
 	 3. private 
 	 
 	 4. default
+	 
+	 Day -21:
+	 =======
+	 Encapsulation:
+	 ==============
+	 wrapping up data members and member functions
+	 
+	 private -----
+	 
+	 public methods-----2 types
+	 setters
+	 getters
