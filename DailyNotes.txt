@@ -1345,3 +1345,68 @@ Multipule Inheritance:
 	 public methods-----2 types
 	 setters
 	 getters
+	 
+	Day -22:
+	========
+	String class:
+	==============
+	
+	sequence/collection of characters....
+	
+	>It is non-primitive datatype
+	
+	>>predefined class available from java.lang.package...
+	
+	>> special class for representing the set of characters....
+	
+	String name = "Gouthami";
+	
+	note:
+	=====
+	
+	All the strings are object of a predefined class called string..
+	
+	3 classes:-----String 
+	
+	1.String
+	2.StringBuffer
+	3.StringBulider
+	
+	all these are avaiable in java.lang.package
+	
+	1.String class:  immutable strings(not changble)
+	2.StringBuffer,StringBulder : Muttable(changeable)
+	
+	
+	String:
+	======
+	2 ways to create String object
+	
+	1.by using literal syntax:
+	    String name = "Welcome";
+	
+	2.by using new keyword 
+	
+	    String name = new String("Welcome");
+		
+		
+		memory areas:
+		=============
+		instance: Heap area
+		static : Method area
+		local : Stack area..
+		
+		StringConstantPool:(SCP)
+		======================
+	    String is a special class, it will get memoryspace in string constant pool...
+		
+		** scp does not allow duplicates.
+		
+		1.using String literal:
+		======================
+		String name = "Welcome";
+		String name1 = "Welcome";
+		Strig name2 = "Welcome";
+	
+	
+	
