@@ -1408,5 +1408,62 @@ Multipule Inheritance:
 		String name1 = "Welcome";
 		Strig name2 = "Welcome";
 	
+	Day -23:
+	=======
+	"=="
+	comapreTo()
+	equals()
+	
+	"==" operator checks for the memory reference
+	
+	equals () checks for the values..
+	
+	returns compareTo()  int values 
+	
+	>> comparing the string lexicographically
+	
+	     returns 0 , if both objects are same
+		 
+		 returns negative,if obj1 comes before obj2...
+		 
+		 returns positive,if obj1 comes after obj2...
+		 
+		 
+		why string is immutable:
+		========================
+		StringConstantPoll
+		
+		it does not allows duplicate values...
+		
+		StringBuffer and StringBulider:
+		===============================
+        StringBuffer sb = new StringBuffer("java");
+		
+		string---equals()-----check values
+		sb ---equals()------memory references..
+		
+		difference:
+		==========
+		StringBuffer --- synchronized methods
+		StringBuilder----no synchronized methods
+		
+		
+		synchronized methods:
+		=====================
+		t1, t2, t3
+		
+		thread safety---advantage
+		
+		at a time (simautaniuosly )
+		
+		
+		
+		
+		
+		 
+		 
+	
+	
+	
 	
 	
