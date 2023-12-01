@@ -1456,6 +1456,52 @@ Multipule Inheritance:
 		
 		at a time (simautaniuosly )
 		
+	day-24:
+    =========
+
+     Arrays:
+     ======	
+	 
+	 It is an indexed collection of fixed no homgenous data elements...
+	 
+	 **an array in java is an object
+	 
+	 String name = "Gouthami";
+	 
+	 String[] name = {"Gouthami","Anjali"} // by using literal
+	 
+	 int[] num = {1,2,3,4} ;
+	 
+	 String[] name = new String[2]; // new keyword
+	 
+	 
+	 Advantages:
+	 ==========
+	 
+	 ** stores only similar data
+	 ** code redability
+	 
+	 
+	 disadavantages :
+	 
+	 ==============
+	 
+	 we canonot change the size.....
+	 
+	 
+	 note:
+	 =====
+	 array will get stored in heap area
+	 
+	 arrays can be accessed with the help of index values...
+	 
+	 2 types of arrays:
+	 ==================
+	 1.single dimensional array
+	 2.multi demensional array...
+	 
+	 
+	 
 		
 		
 		
