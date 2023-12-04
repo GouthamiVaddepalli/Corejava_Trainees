@@ -1500,14 +1500,47 @@ Multipule Inheritance:
 	 1.single dimensional array
 	 2.multi demensional array...
 	 
-	 
-	 
 		
-		
-		
-		
-		 
-		 
+	Day -25:
+	========
+	Exception Handling:
+	===================
+	A mechanisam of converting system defined error message into user frinedly error message....
+	
+	limitiations:
+	=============
+	1.system defined error message
+	2.abnormal termination
+	
+	exception handling:
+	==================
+	
+	1.try
+	2.catch
+	3.finally
+	4.throw 
+	5.throws
+	
+	errors:
+	======
+	1.compile time errors: poor unserstanding of the lang...
+	2.run time error: invalid inputs 
+	
+	Exception:
+	=========
+	
+	exception is an unexpected event that disrupts the noramal flow of the program
+	
+	object thrown at the runtime.....
+	
+	types of Exceptions:
+	====================
+	
+	1.checked exception
+	
+	2.unchecked exception
+	
+	3.errors...
 	
 	
 	
