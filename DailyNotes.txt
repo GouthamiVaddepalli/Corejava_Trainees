@@ -1515,11 +1515,11 @@ Multipule Inheritance:
 	exception handling:
 	==================
 	
-	1.try
-	2.catch
-	3.finally
-	4.throw 
-	5.throws
+	1.try----risky code
+	2.catch----handle code
+	3.finally--- celan up
+	4.throw---- throw the excpetion handling 
+	5.throws----declare the exceptions
 	
 	errors:
 	======
@@ -1528,6 +1528,7 @@ Multipule Inheritance:
 	
 	Exception:
 	=========
+	
 	
 	exception is an unexpected event that disrupts the noramal flow of the program
 	
@@ -1542,7 +1543,26 @@ Multipule Inheritance:
 	
 	3.errors...
 	
+	Day-26:
+	=======
+	
+    Day-27:
+	=======
+	
+	1.System defined 
+	2.user defined exceptions
+	
+	throw ----->> to throw the exception handling
+	
+	throws ---->> to declare the exceptions...
 	
 	
+	user exceptions:
+	=================
+	
+	1.take class -------child to exception class
+	extends throwable,exceptions....
+	
+	2.take one parameterized constructor and a toString method....
 	
 	
