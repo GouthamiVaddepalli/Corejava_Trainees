@@ -1565,4 +1565,84 @@ Multipule Inheritance:
 	
 	2.take one parameterized constructor and a toString method....
 	
+	Day-28:
+	======
+	File Handling:
+	==============
+	File----->predefined class ------->java.io package
+	create ,write, read 
 	
+	predefined classes to write into file:
+	=======================================
+	
+	FileWriter
+	BufferedWriter
+	PrintWriter
+	
+	predefined classes to read from file:
+	======================================
+	
+	FileReader
+	BufferedReader
+	
+	File:
+	=====
+	File f = new File("sample.txt");
+	
+	FileWriter:
+	==========
+	
+	write() ------------->to write the data
+	
+	limitiations:
+	============
+	
+	1.it does not allow the numbe format
+	2.everytime will give the '\n'
+	3.'\n ' is not supported  in every OS
+	
+	2.BufferedWriter:
+	==============
+	limitations:
+	===========
+	1. no number data is allowed
+	2. we have to use newLine() everytime
+	
+	3.PrintWriter:
+	==============
+	println()
+	
+	FileReader:
+	===========
+	limitations:
+	============
+	time taking
+	read()------------char by char
+	
+	BufferedReader:
+	===============
+	
+	readLine()----------->>It reads line by line
+	
+	serialization and deserialization:
+	===================================
+	
+	Serialzation:   converting the obj data into byte data
+	
+	
+	=============
+	
+	to serializae:
+	
+	2 classes:
+	
+	1.FileOutputStream
+	
+	2.ObjectOutputStream---------->> WriteObject()
+	
+	DE-Serialization:     converting the byte data into obj data..
+	
+	==================
+	   1.FileInputStream
+	
+	   2.ObjectInputStream---------->> readObject()
