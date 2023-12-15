@@ -1726,4 +1726,19 @@ Multipule Inheritance:
 	
 	5- default properity
 	
-	**currentThread()
+	**currentThread()-------------->> executing the current class object..
+	
+	Day-31:
+	======
+	Thread Life Cycle:
+	==================
+	https://www.javamadesoeasy.com/2015/03/thread-states-thread-life-cycle-in-java.html
+	sleep()---------->1000 ns---1 Sec
+	
+	join()--------> thread is execute first
+	
+	
+	Synchronization:
+	=================
+	t1,t2,t3-----
+	
