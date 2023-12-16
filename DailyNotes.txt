@@ -1742,3 +1742,33 @@ Multipule Inheritance:
 	=================
 	t1,t2,t3-----
 	
+	Day-32:
+	=======
+	Collections FrameWork:
+	======================
+	FrameWork:
+	==========
+	readmade arichtiure...
+	
+	Collections:
+	============
+	we can stored group of objects into single entity....
+	
+	limtiations of arrays:
+	======================
+	1.we can store only similiar kind of objects...
+	
+	2.only fixed size 
+	
+	3.we dont have a utility methods
+	
+	Advantages of Collections:
+	==========================
+	
+	1.we can store the homogenous and hetrogenous objects/elemenets
+	
+	2. we have a utility methods
+	
+	3.we increases the size
+	
+	collections are present in the  java.util package
