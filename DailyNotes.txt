@@ -1772,3 +1772,25 @@ Multipule Inheritance:
 	3.we increases the size
 	
 	collections are present in the  java.util package
+	
+	Day-33:
+	=======
+	
+	ArrayList default size is 10
+	
+	formula
+	
+	LinkedList default size is 10
+	
+	vector default size is 10
+	
+	
+	Iterator----Interface
+	
+	2 methods
+	
+	hasNext()----------it checks elements are there or not
+	
+	next()--------------it prints line by line
+	
+	
