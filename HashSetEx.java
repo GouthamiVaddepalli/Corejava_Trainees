@@ -21,6 +21,8 @@ public class HashSetEx {
 		hs1.add("anjali");
 		hs1.add("gouthami");
 		System.out.println(hs1);
+		hs.addAll(hs1);
+		System.out.println(hs);
 	}
 
 }
