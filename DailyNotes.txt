@@ -1793,4 +1793,121 @@ Multipule Inheritance:
 	
 	next()--------------it prints line by line
 	
+	Day - 34:
+	==========
+	map:
+	====
+	key : value pair
 	
+	Comparable and Comparator
+	
+	comparable-----java.lang.package(compareTo)
+	
+	compartor --------java.util pacakge(compare())
+	
+	eg:
+	
+    bat.comapreTo(cat);
+	
+	-negative(-1)  
+	+ positive
+	
+	reverse order:
+	==============
+	
+	1.we have inetger change objects
+	2.we can give - sign before object...
+	
+	Day-35:
+	=======
+	Bank CaseStudy :
+	
+	===============
+	
+	Day-36:
+	========
+	Bank CaseStudy:
+	==============
+	
+	Day - 37:
+	==========
+	Bank casestudy
+	
+	Day - 38:
+	=========
+	Bank Casestudy
+	
+	Day -39:
+	========
+		java 8:
+		=======
+		2014, march 18th
+		
+		10 lines in python ---------Fuctional programming
+		
+		100 lines in java
+		
+		1.lambda Expression
+		
+		2.Functional Interface
+		
+		3.default,static methods in interface
+		
+		4.predefined functional intefaces
+		    1.predicate
+			2.Functional
+			3.Suppler
+			
+			4.consumer
+			
+		5.Date and Time API
+		objectives of java8:
+		===================
+		1.Simplified code(concise)
+		2.to introduce functional programming
+		3.to enable parallel programming
+		
+		1.Lambda Expression:
+		====================
+		
+		Annoymus Functional
+		
+		   Nameless
+		   
+		   No return Type
+		   
+		   NO accessModifier
+		   
+		   eg: 
+		     public void m1(){
+			 Syso("Hello");
+			 }
+		   Lambda EXpression:
+		   ++=============+====
+		   
+		   ()->Syso("Hello");
+
+			
+			
+			->   ------->>>Symbol
+		   
+		   
+		 void addition(int a , int b){
+		     Syso(a+b);
+		  
+		  } 
+		   
+		   L.E :
+		   =====
+		   ( a , b)->Syso(a+b);
+		   
+		   
+		   2.Functional Interface:
+		   =======================
+		   
+		   one abstract method----->> SAM
+		   
+		   Annotion----->>
+		   @FunctionlInterface------->it is optional
+		   
+		   
