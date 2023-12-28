@@ -1861,6 +1861,7 @@ Multipule Inheritance:
 			4.consumer
 			
 		5.Date and Time API
+		
 		objectives of java8:
 		===================
 		1.Simplified code(concise)
@@ -1892,6 +1893,7 @@ Multipule Inheritance:
 			->   ------->>>Symbol
 		   
 		   
+		  
 		 void addition(int a , int b){
 		     Syso(a+b);
 		  
@@ -1910,4 +1912,58 @@ Multipule Inheritance:
 		   Annotion----->>
 		   @FunctionlInterface------->it is optional
 		   
-		   
+		Day-40:
+		=======
+		
+		Default ,static methods in interfaces:
+		======================================
+		Default method in interface:
+		==========================
+		
+		interface I {
+		  void m1();
+		  Default void m2(){
+		     
+			 Syso("Hi");
+		  
+		  }
+		
+		}
+		
+		class One implements I{
+		
+		 void m1();
+		
+		 }
+		 @Override
+		public void m2();
+		Syso("Hello");
+		 }
+		}
+		
+		class Two implements I{
+		 void m1();
+		
+		 }
+		}
+		class Three{
+		 void m1();
+		
+		 }
+		
+		}
+		
+		Static methods in interfaces:
+		=============================
+		
+		
+		class        vs                                                       interfaces
+		
+		 1.we are having imlentation                                interfaces have only abstract methods,we dont create any obj,there is no implenation classes
+		 
+		 2. dont create any obj
+		 
+		 3.collection of data
+		 
+		 
+		 heavier ,   costly                                                           lighter,cheap
