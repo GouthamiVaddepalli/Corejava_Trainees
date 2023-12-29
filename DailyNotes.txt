@@ -1966,4 +1966,63 @@ Multipule Inheritance:
 		 3.collection of data
 		 
 		 
-		 heavier ,   costly                                                           lighter,cheap
+		 heavier ,   costly 
+
+		 lighter,cheap
+		 
+	Day-41:
+	======
+	API
+    
+    LocalTime
+    LocalDate ------->>  YY-MM -DD
+    LocalDateTime	
+	
+	Streams:
+	========
+	if we want to process  objects from the collections-----Stream
+	
+	java.util.stream package
+	
+	Stream s = c.stream();
+	
+	
+	----->>filter()
+	------>> map()
+	------->> count()
+	-------->> sorted()
+	
+	Collections:
+	============
+	
+	if we want to store group objects into single entity....
+	
+	ArrayList<Integer> l = new ArrayList<>();
+	
+	l.add(0);
+	l.add(10);
+	l.add(20);
+	l.add(15);
+	l.add(25);
+	l.add(30);
+	Syso(1); [0,10,20,15,25,30]
+	
+	list<Integer> l1 = new ArrayList<>();
+	
+	for(Integer: i : l){
+	   if(i % 2==0){
+	   l1.add(l);
+	   }
+	   Syso(l1);
+	
+	}
+	
+	streams----java 1.8 onwards
+	
+	List<Integer> l1 = l.stream().filter(i->i%2==0).collect(Collectors.toList());
+	
+	Syso(l1);
+	
+	
+	
+	
