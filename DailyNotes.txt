@@ -2025,4 +2025,6 @@ Multipule Inheritance:
 	
 	
 	
-	
+	Day-42:
+	======
+	Layered Architecture
