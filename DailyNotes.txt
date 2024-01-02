@@ -2028,3 +2028,56 @@ Multipule Inheritance:
 	Day-42:
 	======
 	Layered Architecture
+	
+	Day-43:
+	========
+	
+	DataBase:
+	=========
+	DATA:
+	====
+	   collection of information from any source....
+	   
+	Database:
+	========
+	 can be used to stored the data  and oraganized data for future puropse,security....
+	 
+	 DBMS:
+	 ======
+	 database management system
+	 
+	 software which is used to store and manage the data from data base.....
+	 
+	 RDBMS:
+	 ======
+	   Realation database management system...
+	   
+	   reation: Table
+	   
+	       commbination rows and columns
+		   
+		   rows ------>> records
+		   
+		   
+		   columns------> fields
+		   
+		   
+	   
+	    SQL:
+		=====
+		Sturutured Query Languge
+		
+		Queires
+		
+		5 types Quiers:
+		===============
+		DRL: Data REtrivel language  -  Select 
+        DDL : data definiation language - Create,Alter,Rename,Truncate,Drop
+        DML : DAta manupulation language- Insert,Update,Delete,Merge
+        TCL : transfer control language -  Commit , Save point , Rollback
+        DCL  : data control language-  Grant , Revoke 
+
+		crud operation:
+		
+		create,read,insert,update ,delete
+		
